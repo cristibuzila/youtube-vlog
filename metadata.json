@@ -1,0 +1,13 @@
+{
+  "name": "CAHUL HUNT",
+  "description": "Real-life GPS Hide & Seek and Bingo competition in Cahul, Moldova with live Game Master control, Seeker tracking, boundary enforcement, and YouTube broadcast mode.",
+  "requestFramePermissions": [
+    "geolocation",
+    "camera",
+    "microphone",
+    "notifications"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

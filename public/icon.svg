@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <rect width="512" height="512" rx="96" fill="#09090b"/>
+  <circle cx="256" cy="256" r="210" fill="none" stroke="#10b981" stroke-width="4" stroke-opacity="0.25"/>
+  <circle cx="256" cy="256" r="150" fill="none" stroke="#10b981" stroke-width="4" stroke-opacity="0.4"/>
+  <circle cx="256" cy="256" r="80" fill="none" stroke="#10b981" stroke-width="6" stroke-opacity="0.7"/>
+  
+  <!-- Crosshairs -->
+  <line x1="256" y1="46" x2="256" y2="466" stroke="#34d399" stroke-width="3" stroke-opacity="0.6" stroke-dasharray="8 8"/>
+  <line x1="46" y1="256" x2="466" y2="256" stroke="#34d399" stroke-width="3" stroke-opacity="0.6" stroke-dasharray="8 8"/>
+  
+  <!-- Radar Sweep -->
+  <path d="M 256 256 L 390 122 A 190 190 0 0 0 256 66 Z" fill="url(#sweepGrad)" opacity="0.4"/>
+  <defs>
+    <linearGradient id="sweepGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Center Pin (Amber) -->
+  <circle cx="256" cy="256" r="32" fill="#f59e0b" filter="drop-shadow(0 0 12px #f59e0b)"/>
+  <circle cx="256" cy="256" r="14" fill="#ffffff"/>
+
+  <!-- Target Blip (Red) -->
+  <circle cx="350" cy="170" r="18" fill="#ef4444" filter="drop-shadow(0 0 10px #ef4444)"/>
+  <circle cx="350" cy="170" r="28" fill="none" stroke="#ef4444" stroke-width="3" stroke-opacity="0.6"/>
+
+  <!-- Text -->
+  <text x="256" y="475" text-anchor="middle" fill="#f59e0b" font-family="system-ui, -apple-system, sans-serif" font-size="34" font-weight="900" letter-spacing="4">CAHUL HUNT</text>
+</svg>
